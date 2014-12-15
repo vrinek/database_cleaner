@@ -1,0 +1,13 @@
+# Site settings
+title: Database cleaner
+description: > # this means to ignore newlines until "baseurl:"
+  Database cleaner : Strategies for cleaning databases in Ruby.
+  Can be used to ensure a clean state for testing.
+baseurl: "/database_cleaner" # the subpath of your site, e.g. /blog/
+url: "http://databasecleaner.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - Gemfile
